@@ -1,8 +1,12 @@
+### Update note
+Since the auditory stimuli were presented sentence by sentence, we decided to include the original audio files instead of a continuous file. We presented the story in 4 different sections. After each section, there was a time for 5 comprehension check questions. The file "lppHK_timing_word_information.xlsx" includes all the timing information for each section of the story. Information about each column of the file is included in the same file. We also included another file called "EEG_trigger_and_sentence_number.xlsx". This included information about how to match sentence ID and trigger number in the EEG data. These two files are useful for EEG data analysis. For timing issues in fMRI data analysis, we included the Eprime output files which have all the necessary information for aligning in fMRI analysis. Since Eprime usually shows some delay in the presentation of audio files, the delay could be considered in the analysis which can help with better alignment.
+
+Per OpenNeuro’s new formatting requirements, all annotation, quiz, and stimuli files are located in the “sourcedata” folder.
+
 ## Overview
 In the field of neurobiology of language, existing research predominantly focuses on data from a limited number of Indo-European languages and primarily involves younger adults, overlooking other age groups. This experiment aims to address these gaps by creating a comprehensive multimodal database. The primary goal is to advance our understanding of language processing in older adults and the impact of healthy aging on brain-behavior relationships. 
 
-The experiment involves collecting task-based and resting-state fMRI, structural MRI, and EEG data from 52 healthy right-handed older Cantonese participants over 65 years old as they listen to excerpts from “The Little Prince” in Cantonese. Additionally, the database includes detailed information on participants’ language history, lifetime experiences, linguistic and cognitive skills, as well as extensive 
-audio and text annotations, such as time-aligned speech segmentation and prosodic features, along with word-by-word predictors from natural language processing (NLP) tools. Quality diagnostics of the MRI and EEG data confirm their robustness, positioning this database as a valuable resource for studying the spatiotemporal dynamics of language comprehension in older adults.
+The experiment involves collecting task-based and resting-state fMRI, structural MRI, and EEG data from 52 healthy right-handed older Cantonese participants over 65 years old as they listen to excerpts from “The Little Prince” in Cantonese. Additionally, the database includes detailed information on participants’ language history, lifetime experiences, linguistic and cognitive skills, as well as extensive audio and text annotations, such as time-aligned speech segmentation and prosodic features, along with word-by-word predictors from natural language processing (NLP) tools. Quality diagnostics of the MRI and EEG data confirm their robustness, positioning this database as a valuable resource for studying the spatiotemporal dynamics of language comprehension in older adults.
 
 ## Methods
 ### Participants
@@ -69,7 +73,7 @@ rejection of artifacts, including signal noise from eye and muscle, high-amplitu
 3. Participants’ sex, age, and accuracy of quiz questions for each fMRI and EEG experiment, scan number and LEQ scores in tab-separated value (tsv) files. Data is structured as one line per participant.
 
 #### Audio files 
-1. Location: stimuli/task-lppHK_run-1[2-4].wav
+1. Location: sourcedata/stimuli/task-lppHK_run-1[2-4].wav
 2. File format: wav
 3. The 4-section audiobook from The Little Prince in Cantonese
 
@@ -113,7 +117,7 @@ This dataset is still under maintenance.
 ## Contact
 For any question regarding this data, please contact:
 1. Dr. Mohammad Momenian, mohammad.momenian@polyu.edu.hk
-2. Ms. Zhengwu Ma, zhengwuma2-c@my.cityu.edu.hk
+2. Ms. Zhengwu Ma, zhengwu.ma@my.cityu.edu.hk
 3. Ms. Shuyi Wu, shuyiwu2017@gmail.com
 4. Ms. Chengcheng Wang, cwang495-c@my.cityu.edu.hk
 5. Dr. Jixing Li, jixingli@cityu.edu.hk
