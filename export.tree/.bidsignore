@@ -1,0 +1,17 @@
+# Output of acpc detect
+*.txt
+*.ppm
+*.png
+*.mat
+*.nii
+*.node
+*.tif
+*.xlsx
+*.csv
+*.textgrid
+quiz/*.csv
+quiz/*.txt
+codes/*.py
+codes/*.m
+stimuli/*.wav
+behavioral_results/

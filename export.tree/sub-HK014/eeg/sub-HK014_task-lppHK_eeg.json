@@ -1,0 +1,14 @@
+{
+  "InstitutionName": "Hong Kong Polytechnic University",
+  "InstitutionalDepartmentName": "Department of Chinese and Bilingual Studies",
+  "PowerLineFrequency": 50,
+  "SoftwareFilters":"n/a",
+  "EEGReference": "Average",
+  "CapManufacturer" : "Neuroscan",
+  "EEGPlacementScheme": "10-20",
+  "EEGChannelCount": 64,
+  "TaskName": "lppHK",
+  "RecordingType": "continuous",
+  "RecordingDuration": 1336.999,
+  "SamplingFrequency": 1000  
+}
