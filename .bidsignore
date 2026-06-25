@@ -15,3 +15,4 @@ codes/*.py
 codes/*.m
 stimuli/*.wav
 behavioral_results/
+.nemar/
