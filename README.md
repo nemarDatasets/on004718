@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004718-blue)](https://doi.org/10.82901/nemar.on004718)
+
 ### Update note
 Since the auditory stimuli were presented sentence by sentence, we decided to include the original audio files instead of a continuous file. We presented the story in 4 different sections. After each section, there was a time for 5 comprehension check questions. The file "lppHK_timing_word_information.xlsx" includes all the timing information for each section of the story. Information about each column of the file is included in the same file. We also included another file called "EEG_trigger_and_sentence_number.xlsx". This included information about how to match sentence ID and trigger number in the EEG data. These two files are useful for EEG data analysis. For timing issues in fMRI data analysis, we included the Eprime output files which have all the necessary information for aligning in fMRI analysis. Since Eprime usually shows some delay in the presentation of audio files, the delay could be considered in the analysis which can help with better alignment.
 
