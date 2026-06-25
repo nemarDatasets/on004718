@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Le Petit Prince Hong Kong: Naturalistic fMRI and EEG dataset from older Cantonese speakers",
   "description": "This multimodal neuroimaging dataset comprises task-based and resting-state fMRI, structural MRI, and EEG recordings from 52 healthy older Cantonese speakers (mean age 69 years) listening to naturalistic speech from 'The Little Prince' in Cantonese. The dataset includes comprehensive behavioral assessments, detailed linguistic annotations with time-aligned speech segmentation and prosodic features, and natural language processing-derived predictors. This resource addresses a significant gap in language neuroscience by providing robust neuroimaging data from an underrepresented demographic and non-Indo-European language population.",
-  "methods_description": "Participants completed separate fMRI and EEG sessions (minimum 2-week interval) while listening to four sections of 'The Little Prince' in Cantonese (~20 minutes total). fMRI acquisition included structural T1-weighted scans, task-based fMRI during listening, and resting-state fMRI. EEG was recorded continuously during listening. Both sessions included comprehension assessment via 20 yes/no questions. Cognitive testing (digit span, picture naming, verbal fluency, Flanker task) and questionnaires (Language History Questionnaire 3, Lifetime of Experiences Questionnaire) were administered. MRI data collected at 3T scanner with MRI-safe headphones; EEG recorded with 64-channel cap using foam ear inserts.",
+  "methods_description": "Participants completed separate fMRI and EEG sessions (minimum 2-week interval) while listening to four sections of 'The Little Prince' in Cantonese (~20 minutes total). fMRI acquisition included structural T1-weighted scans, task-based fMRI during listening, and resting-state fMRI. EEG was recorded continuously during listening. Both sessions included comprehension assessments (20 yes/no questions). Cognitive testing (digit span, picture naming, verbal fluency, Flanker task) and questionnaires (Language History Questionnaire 3, Lifetime of Experiences Questionnaire) were administered. MRI data collected at 3T scanner with MRI-safe headphones; EEG recorded with 64-channel cap using foam ear inserts.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -34,30 +34,6 @@
     },
     {
       "term": "multimodal neuroimaging"
-    },
-    {
-      "term": "older adults"
-    },
-    {
-      "term": "speech comprehension"
-    },
-    {
-      "term": "Hong Kong"
-    },
-    {
-      "term": "cognitive assessment"
-    },
-    {
-      "term": "prosodic features"
-    },
-    {
-      "term": "resting-state fMRI"
-    },
-    {
-      "term": "structural MRI"
-    },
-    {
-      "term": "comprehension assessment"
     }
   ],
   "related_identifiers": [
@@ -98,15 +74,6 @@
     ".wav",
     ".xlsx",
     ".yml"
-  ],
-  "funding_references": [
-    {
-      "funder_name": "Unknown"
-    },
-    {
-      "funder_name": "Hong Kong Polytechnic University",
-      "award_number": "HSEARS20210302001"
-    }
   ],
   "source_hash": "1bf69a7e5431e6540f368486c76f2f8ce724d6f8ac4a0b7257fa4dc09fa3f9b3"
 }
