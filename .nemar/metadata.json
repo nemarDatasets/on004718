@@ -1,0 +1,35 @@
+{
+  "version": "2.0",
+  "dataset_id": "on004718",
+  "source": "openneuro",
+  "source_id": "ds004718",
+  "title": "Le Petit Prince Hong Kong: Naturalistic fMRI and EEG dataset from older Cantonese speakers",
+  "authors": {
+    "Mohammad Momenian": {},
+    "Zhengwu Ma": {},
+    "Shuyi Wu": {},
+    "Chengcheng Wang": {},
+    "Jixing Li": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds004718.v1.1.2",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.12.0",
+  "recording_modality": [
+    "anat",
+    "eeg",
+    "func"
+  ],
+  "datatypes": [
+    "anat",
+    "eeg",
+    "func"
+  ]
+}
